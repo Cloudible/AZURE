@@ -1,0 +1,95 @@
+# 영역 관련 - 색상: B1978C
+- name: "in: docs"
+  description: "문서 관련"
+  color: "B1978C"
+
+- name: "in: deploy"
+  description: "배포 관련"
+  color: "B1978C"
+
+- name: "in: infra"
+  description: "인프라 관련"
+  color: "B1978C"
+
+- name: "in: api"
+  description: "API 관련"
+  color: "B1978C"
+
+- name: "in: db"
+  description: "Database 관련"
+  color: "B1978C"
+
+- name: "in: auth"
+  description: "인증/인가 관련"
+  color: "B1978C"
+
+# 작업 유형 - 색상: C084FC
+- name: "type: chore"
+  description: "빌드, 설정, 패키지 관리 등 코드 변경 없이 필요한 작업입니다."
+  color: "C084FC"
+
+- name: "type: test"
+  description: "테스트 코드 추가, 수정과 관련된 작업입니다."
+  color: "C084FC"
+
+- name: "type: docs"
+  description: "문서 작성 또는 README 등 비즈니스 로직과 무관한 문서 작업입니다."
+  color: "C084FC"
+
+- name: "type: refactor"
+  description: "기능 변화 없이 코드 구조나 품질을 개선하는 작업입니다."
+  color: "C084FC"
+
+- name: "type: feature"
+  description: "새로운 기능을 추가하거나 구현하는 작업입니다."
+  color: "C084FC"
+
+- name: "type: bug"
+  description: "버그를 수정하는 작업입니다."
+  color: "C084FC"
+
+# 우선순위 - 색상 구분
+- name: "priority: low"
+  description: "긴급하지 않으며 여유 있게 처리해도 되는 작업입니다."
+  color: "91C788"
+
+- name: "priority: medium"
+  description: "일반적인 우선순위의 작업입니다."
+  color: "F3CA52"
+
+- name: "priority: high"
+  description: "긴급하며 우선적으로 해결해야 하는 작업입니다."
+  color: "A03C3C"
+
+# 진행 상태 - 색상: F6E05E
+- name: "status: in progress"
+  description: "작업이 현재 진행 중입니다."
+  color: "F6E05E"
+
+- name: "status: needs feedback"
+  description: "리뷰어 또는 담당자의 피드백이 필요한 상태입니다."
+  color: "F6E05E"
+
+- name: "status: feedback provided"
+  description: "피드백이 반영되었거나 제공된 상태입니다."
+  color: "F6E05E"
+
+- name: "status: done"
+  description: "작업이 완료된 상태입니다."
+  color: "F6E05E"
+
+- name: "status: won't fix"
+  description: "해결하지 않기로 결정한 이슈입니다."
+  color: "F6E05E"
+
+- name: "status: delayed"
+  description: "우선순위에 따라 작업이 보류된 상태입니다."
+  color: "F6E05E"
+
+- name: "status: duplicated"
+  description: "중복된 이슈 또는 작업입니다."
+  color: "F6E05E"
+
+- name: "status: triage"
+  description: "이슈나 PR을 분류하고 우선순위를 판단해야 하는 상태입니다."
+  color: "F6E05E"
